@@ -1,0 +1,5 @@
+/target
+.envrc
+.direnv
+token.nix
+guild_id.nix
