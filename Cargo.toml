@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tokio = "1.39.2"
+tokio = { version = "1.39.2", features = ["macros", "rt-multi-thread", "signal"] }
 twilight-cache-inmemory = "0.15.4"
 twilight-gateway = "0.15.4"
 twilight-http = "0.15.4"
 twilight-model = "0.15.4"
+twilight-util = { version = "0.15.4", features = ["builder"] }
